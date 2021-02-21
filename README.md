@@ -1,7 +1,7 @@
 # LendingClub Loan Prediction using Neural Networks
 
 ### Goal
-Given historical data on loans with information on whether or not the borrower defaulted (charge-off), can we build a model that can predict wether or nor a borrower will pay back their loan?
+Given historical data on loans with information on whether or not the borrower defaulted (charge-off), can we build a model that can predict wether a borrower will pay back their loan or not?
 
 ### Data Description
 * The dataset has a total of 396030 observations (very big) with 27 variables.
