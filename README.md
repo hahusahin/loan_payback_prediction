@@ -1,34 +1,29 @@
-# LendingClub Loan Prediction using Neural Networks
+# Employee Attrition Prediction
 
 ### Goal
-Given historical data on loans with information on whether or not the borrower defaulted (charge-off), can we build a model that can predict wether a borrower will pay back their loan or not?
+Using the extensive data that Human Resources team collected in a business, my goal is to develop a model that could predict which employees are more likely to quit
 
 ### Data Description
 * The dataset has a total of 396030 observations (very big) with 27 variables.
 
 * Target variable is the binary variable of loan status.
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis - Modeling
 * Missing values are detected and filled, unnecesarry features are deleted
 
 * Target variable's distribution is examined
 
 * Relationship between target variable and the features are examined and some observations are made
 
-* Normalization is applied.
+* Scaling is applied.
 
-### Modeling
-* Data is splitted into train and test set.
+* Logistic Regression, XGBoost and Artificial Neural Network (ANN) models are tried.
 
-* An artificial neural network of 4 layers is created, Dropout is added to 3 layers to avoid overfitting.
-
-* Sigmoid activation function is used for output layer and Relu for the remaining layers.
-
-* The model is trained with 25 epochs of batch size 256 in Tensorflow and overall accuracy of 89% obtained.
+* As the data is imbalanced, I tried to minimize the false negatives because the most important employees that we should concentrate on is the ones who actually left but the model predicted as stayed. So, Recall is taken as the main metric and overall of 85% recall obtained.
 
 
 ### Libraries Used
 * pandas, numpy
 * matplotlib, seaborn
-* sklearn
+* sklearn, xgboost
 * keras, tensorflow
