@@ -4,7 +4,7 @@
 Given historical data on loans with information on whether or not the borrower defaulted (charge-off), can we build a model that can predict wether a borrower will pay back their loan or not?
 
 ### Data Description
-* The dataset has a total of 396030 observations (very big) with 27 variables.
+* The dataset has a total of 396030 observations with 27 variables.
 
 * Target variable is the binary variable of loan status.
 
