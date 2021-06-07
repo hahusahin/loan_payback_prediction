@@ -27,9 +27,9 @@ Given historical data on loans with information on whether or not the borrower d
 * The model is trained with 25 epochs of batch size 256 in Tensorflow and overall accuracy of 89% obtained.
 
 ### Project Files
-* ner.ipynb - Project Notebook
+* loan_payback_prediction.ipynb - Project Notebook
 * Dataset is not included because of size
-* 
+
 ### Libraries Used
 * pandas, numpy
 * matplotlib, seaborn
